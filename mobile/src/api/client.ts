@@ -1,5 +1,5 @@
 import axios, { AxiosError, AxiosRequestConfig } from 'axios';
-import * as SecureStore from 'expo-secure-store';
+import * as SecureStore from '../store/secureStorage';
 import { API_URL } from '../config/env';
 import type { ApiResponse } from '../types/api';
 
